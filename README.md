@@ -116,12 +116,12 @@
 - shortcuts / gestures
 
   >- if no more **rows** available, pressing `down` will go to the last item in the list **"same as native finder"**.
+  >- when viewing a `audio/video` file in the preview card, pressing `space` will **play/pause** the item instead of closing the modal.
   >- dbl click/tap
-  >   + any file type `audio/video` when sidebar is hidden, will open it in the preview card same as images.
-  >   + any file type `application/archive` will download it.
+  >   + any file of type `audio/video` when sidebar is hidden, will open it in the preview card **"same as images"**.
+  >   + any file of type `application/archive` will download it.
   >- all the **left/right** gestures have their counterparts available as well.
-  >- while previewing an item, you can use any of the navigation keys `left/up/right/down/home/end` & `swipe left/right/up/down`.
-  >- pressing `esc` while using the ***image editor*** wont close the modal but you can __*dbl click/tap*__ the `modal background` to do so. **"to avoid accidentally canceling your changes"**.
+  >- pressing `esc` while using the ***image editor*** wont close the modal but you can ***dbl click/tap*** the `modal background` to do so. **"to avoid accidentally canceling your changes"**.
 
   \* the info sidebar is only available on big screens **"> 1087px"**.<br>
   \* to stop interfering with other `keydown` events you can toggle the manager listener through<br>
